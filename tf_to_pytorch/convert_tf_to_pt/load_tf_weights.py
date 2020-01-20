@@ -144,6 +144,7 @@ if __name__ == '__main__':
     sys.path.append('original_tf')
     import eval_ckpt_main
 
+    sys.path.append('../../')
     from efficientnet_pytorch import EfficientNet
 
     parser = argparse.ArgumentParser(
